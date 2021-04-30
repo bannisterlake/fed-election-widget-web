@@ -11,7 +11,7 @@ The riding (not case sensitive) is only used in map widget to zoom in on specifi
 
 Data is organized by year. Requires 4 files to work per year: 
 
-1.  "electionconfig.json" - Includes title, seat total, and majority total variables. Additional variables can be added as needed. 
+1.  "electionconfig.json" - Includes title, seat total, majority total and data refresh timer variables. Additional variables can be added as needed. 
 2.  "partyResults.json" - Overall party results via the "api/party/result/overall/(mains)/json" flow endpoint
 3.  "overallResults.json" - Declarations results via the "api/OverallResult/?format=json" flow endpoint
 4.  "ridingResults.json" - Riding/Candidate results via the "api/CandidateByRiding/?json=true" flow endpoint
