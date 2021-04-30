@@ -1,0 +1,13 @@
+{
+    "title": "Federal Election 2023",
+    "total": 338,
+    "majority": 170,
+    "timer": 10000,
+    "filteredResults": [
+        {
+            "label": "Landslide Race - 20% Lead - this is a template", 
+            "URL": "http://electorfederal.blcloud.net/api/ResultSummary/filtered/lead_pct__gt_%3D20%3B/?json=true", 
+            "filename": "fr_landslide.json"
+        }
+    ]
+}
