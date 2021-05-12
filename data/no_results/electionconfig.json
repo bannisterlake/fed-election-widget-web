@@ -1,0 +1,38 @@
+{
+    "title": "Federal Election 2019",
+    "total": 338,
+    "majority": 170,
+    "timer": 30000,
+    "filteredResults": [
+        {
+            "label": "Landslide Race - 20% Lead", 
+            "URL": "http://electorfederal.blcloud.net/api/ResultSummary/filtered/lead_pct__gt_%3D20%3B/?json=true", 
+            "filename": "fr_landslide.json"
+        },
+        {
+            "label": "Close Race - 5% Lead", 
+            "URL": "http://electorfederal.blcloud.net/api/ResultSummary/filtered/lead_pct__lt_%3D5%3B/?json=true", 
+            "filename": "fr_close.json"
+        },
+        {
+            "label": "Very Close Race - 1% Lead", 
+            "URL": "http://electorfederal.blcloud.net/api/ResultSummary/filtered/lead_pct__lt_%3D5%3B/?json=true", 
+            "filename": "fr_veryclose.json"
+        },
+        {
+            "label": "Incumbent Losing", 
+            "URL": "http://electorfederal.blcloud.net/api/ResultSummary/filtered/incumbent%3D0%3B%20lead_gt_0%3B/?json=true", 
+            "filename": "fr_incumbentlosing.json"
+        },
+        {
+            "label": "Incumbent Leading", 
+            "URL": "http://electorfederal.blcloud.net/api/ResultSummary/filtered/incumbent%3D1%3B%20lead_gt_0%3B/?json=true", 
+            "filename": "fr_incumbentleading.json"
+        },
+        {
+            "label": "Party Leader in Riding", 
+            "URL": "http://electorfederal.blcloud.net/api/ResultSummary/filtered/interest6_gt_%3D0%3B/?json=true", 
+            "filename": "fr_partyleader.json"
+        }
+    ]
+}
